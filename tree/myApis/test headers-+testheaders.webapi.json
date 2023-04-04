@@ -2,11 +2,9 @@
   "goid": "982cc1ee7369c6ca5a7ae1e4ad8ba399",
   "name": "test headers",
   "resolutionPath": "/testheaders",
-  "folderPath": "/myApis",
-  "policy": {
-    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse>\n            <L7p:Base64ResponseBody stringValue=\"aGVhZGVycwoke3JlcXVlc3QuaHR0cC5hbGxoZWFkZXJ2YWx1ZXN9\"/>\n            <L7p:ResponseContentType stringValue=\"text/plain; charset=UTF-8\"/>\n        </L7p:HardcodedResponse>\n    </wsp:All>\n</wsp:Policy>\n"
-  },
+  "checksum": "e272c84aa976bdd0d4973344b03123005ff473dd",
   "enabled": true,
+  "folderPath": "/myApis",
   "methodsAllowed": [
     "GET",
     "POST",
@@ -15,5 +13,7 @@
   ],
   "tracingEnabled": false,
   "wssProcessingEnabled": false,
-  "checksum": "e272c84aa976bdd0d4973344b03123005ff473dd"
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse>\n            <L7p:Base64ResponseBody stringValue=\"aGVhZGVycwoke3JlcXVlc3QuaHR0cC5hbGxoZWFkZXJ2YWx1ZXN9\"/>\n            <L7p:ResponseContentType stringValue=\"text/plain; charset=UTF-8\"/>\n        </L7p:HardcodedResponse>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
 }
