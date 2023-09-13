@@ -8,8 +8,7 @@
   "methodsAllowed": [
     "GET",
     "POST",
-    "PUT",
-    "DELETE"
+    "PUT"
   ],
   "tracingEnabled": false,
   "wssProcessingEnabled": false,
