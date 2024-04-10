@@ -1,6 +1,6 @@
 {
-  "name": "Rest Api 3",
-  "resolutionPath": "/api3",
+  "name": "Rest Api 4",
+  "resolutionPath": "/api4",
   "enabled": true,
   "folderPath": "/myApis",
   "methodsAllowed": [
@@ -12,6 +12,6 @@
   "tracingEnabled": false,
   "wssProcessingEnabled": false,
   "policy": {
-    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse>\n            <L7p:Base64ResponseBody stringValue=\"ewogICAgIm1lc3NhZ2UiOiAiVGhhbmtzIGZvciBnZXR0aW5nIHN0YXJ0ZWQgYXQgJHtnYXRld2F5LnRpbWV9ISIKfQ==\"/>\n            <L7p:ResponseContentType stringValue=\"application/json; charset=UTF-8\"/>\n        </L7p:HardcodedResponse>\n    </wsp:All>\n</wsp:Policy>\n"
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse>\n            <L7p:Base64ResponseBody stringValue=\"SGVsbG8sIENSRyBXb3JsZCEK==\"/>\n            <L7p:ResponseContentType stringValue=\"application/json; charset=UTF-8\"/>\n        </L7p:HardcodedResponse>\n    </wsp:All>\n</wsp:Policy>\n"
   }
 }
