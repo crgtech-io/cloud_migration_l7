@@ -1,0 +1,8 @@
+{
+  "goid": "0000000000000000fffffffffff5519f",
+  "name": "cluster.hostname",
+  "checksum": "7a03fb58453b4112910872d2803d4b171019ee2b",
+  "description": "External hostname for the cluster",
+  "hiddenProperty": false,
+  "value": "my.localdomain"
+}
