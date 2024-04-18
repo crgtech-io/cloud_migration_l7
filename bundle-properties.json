@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "id": "9ceb4669-871b-4eb7-9e63-41abb9cc3587",
+    "name": "Gateway Graphman Bundle - 2024-04-18T20:44:42.319Z",
+    "author": "admin",
+    "hostname": "a35fc8d5ace90483ebef3187e7b37529-794995330.us-east-2.elb.amazonaws.com",
+    "timestamp": "2024-04-18T20:44:42.319Z"
+  },
+  "defaultAction": "NEW_OR_UPDATE"
+}
