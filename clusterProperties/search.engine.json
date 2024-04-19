@@ -1,8 +1,0 @@
-{
-  "goid": "975e54378ab4d6196a106bd7b50c2d98",
-  "name": "search.engine",
-  "checksum": "08a040be2b080ffb21c86b0ba71ec7690e3f6946",
-  "description": "Search Engine to be used",
-  "hiddenProperty": false,
-  "value": "google"
-}
