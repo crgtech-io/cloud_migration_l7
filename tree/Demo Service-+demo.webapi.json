@@ -1,0 +1,20 @@
+{
+  "goid": "5ffaa3486eab76f1b4159ab2c50bc074",
+  "guid": "9a128b64-d03c-42a6-9ac4-da0ec362b5b4",
+  "name": "Demo Service",
+  "resolutionPath": "/demo",
+  "checksum": "081660705429388989b0246a4d7ab8f5a97127fc",
+  "enabled": true,
+  "folderPath": "/",
+  "methodsAllowed": [
+    "GET",
+    "POST",
+    "PUT",
+    "DELETE"
+  ],
+  "tracingEnabled": false,
+  "wssProcessingEnabled": false,
+  "policy": {
+    "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<wsp:Policy xmlns:L7p=\"http://www.layer7tech.com/ws/policy\" xmlns:wsp=\"http://schemas.xmlsoap.org/ws/2002/12/policy\">\n    <wsp:All wsp:Usage=\"Required\">\n        <L7p:HardcodedResponse>\n            <L7p:Base64ResponseBody stringValue=\"VGhpcyBpcyBhIGRlbW8gc2VydmljZQ==\"/>\n            <L7p:ResponseContentType stringValue=\"text/plain; charset=UTF-8\"/>\n        </L7p:HardcodedResponse>\n    </wsp:All>\n</wsp:Policy>\n"
+  }
+}
